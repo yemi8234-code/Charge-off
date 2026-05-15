@@ -1,3 +1,4 @@
+import {SYNE, MONO} from '../fonts';
 import React from 'react';
 import {interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
 import {COLOR} from '../theme';
@@ -78,7 +79,7 @@ export const ChapterCard: React.FC<Props> = ({
       {/* Chapter label */}
       <div
         style={{
-          fontFamily: 'JetBrains Mono, monospace',
+          fontFamily: MONO,
           fontWeight: 500,
           fontSize: 13,
           letterSpacing: '0.42em',
@@ -93,7 +94,7 @@ export const ChapterCard: React.FC<Props> = ({
       {/* Title with staggered words */}
       <div
         style={{
-          fontFamily: 'Syne, sans-serif',
+          fontFamily: SYNE,
           fontWeight: 800,
           fontSize: 92,
           color: COLOR.text,

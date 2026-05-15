@@ -18,6 +18,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.2.8",
+    "@fontsource/syne": "^5.2.7",
     "@remotion/bundler": "^4.0.462",
     "@remotion/cli": "^4.0.462",
     "@remotion/google-fonts": "^4.0.462",

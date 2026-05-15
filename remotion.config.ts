@@ -4,3 +4,7 @@ Config.setVideoImageFormat('jpeg');
 Config.setOverwriteOutput(true);
 Config.setConcurrency(1);
 Config.setPixelFormat('yuv420p');
+Config.setChromiumIgnoreCertificateErrors(true);
+Config.setBrowserExecutable(
+  '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell',
+);

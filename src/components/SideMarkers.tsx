@@ -1,3 +1,4 @@
+import {SYNE, MONO} from '../fonts';
 import React from 'react';
 import {interpolate, useCurrentFrame, useVideoConfig} from 'remotion';
 import {COLOR} from '../theme';
@@ -55,7 +56,7 @@ export const SideMarkers: React.FC<Props> = ({chapter, totalChapters}) => {
           position: 'absolute',
           left: 64,
           bottom: 56,
-          fontFamily: 'JetBrains Mono, monospace',
+          fontFamily: MONO,
           fontSize: 12,
           letterSpacing: '0.18em',
           color: COLOR.dim,
@@ -71,7 +72,7 @@ export const SideMarkers: React.FC<Props> = ({chapter, totalChapters}) => {
           position: 'absolute',
           right: 64,
           bottom: 56,
-          fontFamily: 'JetBrains Mono, monospace',
+          fontFamily: MONO,
           fontSize: 11,
           letterSpacing: '0.42em',
           color: COLOR.dim,
