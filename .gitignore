@@ -1,1 +1,6 @@
 node_modules/
+.remotion/
+output/
+.env
+.env.local
+.DS_Store
